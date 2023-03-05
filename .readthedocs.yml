@@ -1,0 +1,15 @@
+version: 2
+
+# Build documentation in the latest available Python 3.x environment
+python:
+  version: 3.9
+  system_site_packages: false
+
+# Build the documentation using Sphinx
+build:
+  image: latest
+  environment:
+    READTHEDOCS: True
+  steps:
+    - pip install -r requirements.txt
+    - sphinx-build -b html . _build/html
