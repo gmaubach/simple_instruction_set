@@ -46,6 +46,16 @@ def my_function(param_one, param_two):
     Raises:
         ExceptionType: Description of when this exception is raised.
         Example usage of the function.
+    
+    Example:
+        ```
+        Example code here
+        ```
+        
+    Calling options:
+        ```
+       {options}
+       ```
 
     See Also:
         * `related documentation <https://example.com>`_
